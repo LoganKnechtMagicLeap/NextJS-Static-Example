@@ -1,0 +1,27 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build && yarn build:format",
+        "build:format": "mv build build_format && prettier --write build_format && mv build_format build",
+        "dev": "next dev",
+        "lint": "next lint",
+        "start": "next start",
+        "start": "next start"
+    },
+    "dependencies": {
+        "eslint": "8.49.0",
+        "eslint-config-next": "13.4.19",
+        "next": "13.4.19",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "20.6.2",
+        "@types/react": "18.2.22",
+        "@types/react-dom": "18.2.7",
+        "cheerio": "^1.0.0-rc.12",
+        "prettier": "^3.0.3",
+        "typescript": "5.2.2"
+    }
+}
